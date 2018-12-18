@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cine Enem</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="facebook_app_id">1729463900674011</string>
+    <string name="fb_login_protocol_scheme">fb1729463900674011</string>
+    <string name="fb_login_text">Entrar com o Facebook</string>
+    <string name="login_form_email">Email</string>
+    <string name="login_form_senha">Senha</string>
+    <string name="btn_login_connect">Entrar</string>
+    <string name="btn_login_create">Criar uma Conta</string>
+    <string name="login_error">Ocorreu um erro, cheque suas informações de login e tente novamente</string>
+    <string name="login_successful">Login Realizado com Sucesso, aguarde...</string>
+    <string name="login_form_confirm_senha">Repita sua senha</string>
+    <string name="confirm_creation">Criar Conta</string>
+    <string name="error_signup_unexpected">Ocorreram problemas no Cadastro, cheque suas informações e tente novamente</string>
+    <string name="error_signup_collision">Este email já está cadastrado</string>
+    <string name="error_signup_invalid_email">O Email digitado é invalido, digite um outro email</string>
+    <string name="error_signup_weakpassword">Digite uma senha mais forte contendo no mínimo oito caracteres e que contenha letras e numeros</string>
+    <string name="signup_successful">Cadastro realizado com sucesso, cheque seu email com instruções para ativação.</string>
+    <string name="reset_error">Preencha o campo email para prosseguir com o reset de senha</string>
+    <string name="reset_successful">Você recebeu um email com instruções para resetar sua senha =)</string>
+    <string name="error_unexpected">Ocorreu um problema, tente novamente</string>
+    <string name="wait_label">Aguarde...</string>
+    <string name="logging_wait">Logando no sistema</string>
+    <string name="sending_wait">Enviando email de confirmação</string>
+    <string name="sign_wait">Cadastrando usuário</string>
+    <string name="verify_activation">Cheque sua caixa de email e siga as instruções de verificação</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string name="choose_category">Escolha uma Categoria</string>
+</resources>

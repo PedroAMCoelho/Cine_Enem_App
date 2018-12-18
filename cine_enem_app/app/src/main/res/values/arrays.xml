@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>-- Sem Categoria --</item>
+        <item>Atualidades</item>
+        <item>Biografias</item>
+        <item>Física</item>
+        <item>História Antiga</item>
+        <item>História do Brasil</item>
+        <item>História Medieval</item>
+        <item>História Moderna / Contemporânea</item>
+        <item>História do Século XX</item>
+        <item>II Guerra Mundial</item>
+        <item>Sociologia / Filosofia</item>
+    </string-array>
+</resources>

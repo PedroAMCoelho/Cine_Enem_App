@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "456592583789",
+    "firebase_url": "https://cine-enem.firebaseio.com",
+    "project_id": "cine-enem",
+    "storage_bucket": "cine-enem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456592583789:android:6c64c3dcd7e4e61c",
+        "android_client_info": {
+          "package_name": "br.infnet.com.cineenem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456592583789-45vrrdh9giiig42gh94tir7cmng3h7o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.infnet.com.cineenem",
+            "certificate_hash": "7f12d070c6532f1674e1a9e816a24ebc21dd687e"
+          }
+        },
+        {
+          "client_id": "456592583789-tl5hiob0q6s1dpmmiunjb9dv9tisqmoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwQgd7bCz6XL7wEEVJdkTgU-lkqUpSRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456592583789-tl5hiob0q6s1dpmmiunjb9dv9tisqmoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

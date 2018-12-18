@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_action"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Atividade.CadastroVideoActivity">
+
+
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:text="Título do Vídeo: "
+                android:layout_alignBaseline="@+id/edtTitle"
+                android:layout_alignBottom="@+id/edtTitle"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/edtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="34dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/txtTitle" />
+
+            <TextView
+                android:id="@+id/txtCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtTitle"
+                android:layout_below="@+id/edtTitle"
+                android:layout_marginTop="16dp"
+                android:text="Código do Vídeo:" />
+
+            <EditText
+                android:id="@+id/edtCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtCode"
+                android:layout_alignBottom="@+id/txtCode"
+                android:layout_alignStart="@+id/edtTitle"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:id="@+id/txtImdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtCode"
+                android:layout_below="@+id/edtCode"
+                android:layout_marginTop="16dp"
+                android:text="Código do IMDB:" />
+
+            <EditText
+                android:id="@+id/edtImdb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtImdb"
+                android:layout_alignBottom="@+id/txtImdb"
+                android:layout_alignStart="@+id/edtCode"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+            <Spinner
+                android:id="@+id/spnCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtImdb"
+                android:layout_below="@id/edtImdb"
+                android:layout_marginTop="18dp"
+                android:prompt="@string/choose_category"
+                android:entries="@array/categorias"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/txtCompl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/edtImdb"
+                android:layout_alignStart="@+id/edtDescription" />
+
+            <EditText
+                android:id="@+id/edtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:layout_below="@+id/txtCompl"
+                android:layout_alignEnd="@+id/edtImdb"
+                android:layout_alignStart="@+id/txtCode" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Video"
+                android:layout_below="@+id/edtDescription"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

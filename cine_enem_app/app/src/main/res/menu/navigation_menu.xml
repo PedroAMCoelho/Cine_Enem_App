@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_group"
+        android:title="Adicionar">
+        <menu>
+            <item
+                android:id="@+id/nav_menu1"
+                android:icon="@mipmap/ic_menu_add2"
+                android:title="Novos Vídeos" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/admin_favoritos"
+        android:title="Favoritos">
+        <menu>
+
+            <item
+                android:id="@+id/nav_menu2"
+                android:icon="@mipmap/ic_menu_favorite"
+                android:title="Favoritos"/>
+
+        </menu>
+    </item>
+    <item android:title="Categorias">
+        <menu>
+            <item
+                android:id="@+id/nav_cat0"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Todos os Vídeos" />
+
+            <item
+                android:id="@+id/nav_cat1"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Atualidades" />
+
+            <item
+                android:id="@+id/nav_cat2"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Biografias" />
+
+            <item
+                android:id="@+id/nav_cat3"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Física" />
+
+            <item
+                android:id="@+id/nav_cat4"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Geografia" />
+
+            <item
+                android:id="@+id/nav_cat5"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="História Antiga" />
+
+            <item
+                android:id="@+id/nav_cat6"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="História do Brasil" />
+
+            <item
+                android:id="@+id/nav_cat7"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="História Medieval" />
+
+            <item
+                android:id="@+id/nav_cat8"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="História Moderna / Contemporânea" />
+
+            <item
+                android:id="@+id/nav_cat9"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="História do Século XX" />
+
+            <item
+                android:id="@+id/nav_cat10"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="II Guerra Mundial" />
+
+            <item
+                android:id="@+id/nav_cat11"
+                android:icon="@mipmap/ic_menu_category"
+                android:title="Sociologia / Filosofia" />
+        </menu>
+    </item>
+
+        <group>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_menu_padlock"
+                android:title="Logout" />
+        </group>
+
+</menu>
